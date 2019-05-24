@@ -51,4 +51,4 @@ print(waypoints[1])
 # YOUR CODE HERE
 for waypoint in waypoints:
     for key, value in waypoint.items():
-        print(value)
+        print(f'key:{key}, value: {value}')
