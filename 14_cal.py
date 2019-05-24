@@ -35,4 +35,4 @@ else:
     elif len(input) == 2:
         print(calendar.monthcalendar(int(input[1]), int(input[0])))
     else:
-        print('Expects a month and a year as numbers with a space between. For January 2009 input "1 2009"')
+        print('Expects a month and a year as numbers with a space between. For example January 2009 is "1 2009"')
