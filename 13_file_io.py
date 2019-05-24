@@ -21,4 +21,4 @@ with open('foo.txt') as f:
 # YOUR CODE HERE
 with open("bar.txt", 'w') as f:
     f.write('TESTING IS THIS WORKING \n')
-    f.write('Let\'s write another line of code \n This is a third line \n')
+    f.write('Let\'s write another line of code \nThis is a third line \n')
