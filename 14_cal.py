@@ -22,3 +22,17 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+x = input("Pick a month: ")
+date = datetime.now()
+if x == '':
+    print(date.month)
+    print(calendar.monthcalendar(date.year, date.month))
+else:
+    input = x.split(' ')
+    if len(input) == 1:
+        print(calendar.monthcalendar(date.year, int(input[0])))
+    elif len(input) == 2:
+        print(calendar.monthcalendar(int(input[1]), int(input[0])))
+    else:
+        print('Expects a month and a year as numbers with a space between. For example January 2009 is "1 2009"')
